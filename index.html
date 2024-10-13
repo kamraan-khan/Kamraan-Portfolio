@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamraan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="#profile">Kamraan Khan</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kamraan Khan</div>
+        <div class=" hamburger-menu">
+            <div class=" hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="circle-image" src="assets/main.JPG"="Kamraan Khan">
+        </div>
+        <div class="section__text">
+            <h1 class="title">Kamraan Khan</h1>
+            <p class="section__text__p2">Software Engineer<br>Learner</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="main-container">
+                <div class="image-container">
+                    <img src="assets/about.jpg" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>Java Full Stack Developer Intern</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon">
+                            <h3>Education</h3>
+                            <ul>
+                                <li>Bachelor Of Technology in <b>Computer Science</b><br><br>B.S. Abdur Rahman Crescent Institute of Science and Technology</li>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <ul>
+                            <li>
+                             I am a dynamic Full Stack Developer with a strong foundation in various programming languages, including Java, JavaScript, and Python, which I've utilized in multiple projects. My expertise in web development is complemented by my proficiency in HTML and CSS, allowing me to create visually appealing and user-friendly interfaces. I have experience with Spring Boot for backend development and React.js for building dynamic front-end applications. In terms of data management, I'm well-versed in using PostgreSQL and MongoDB. I leverage Git for version control, facilitating seamless collaboration with team members, and I have a solid understanding of RESTful APIs for integrating different systems.
+                            </li>
+                            <li>
+                                I have strong soft skills that enhance my technical expertise. My problem-solving abilities allow me to tackle challenges creatively, while my teamwork skills foster collaboration and ensure project success.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C# icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C++ icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Spring Boot</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>BootStrap</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Databases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+        <!--<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">-->
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Work Experience</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experience-item">
+            <div class="experience-details">
+                <h2>Java Full Stack Developer</h2>
+                <p>KVR Techminds Pvt Ltd. | Bengaluru | September 2023 - May 2024</p>
+                <ul>
+                    <li>Gained approximately eight months of experience in Software Development and unit testing, focusing on delivering high-quality solutions using Java technologies such as Spring Boot, Spring Framework, Spring Data JPA, and Spring RESTful Web Services.</li>
+                    <li>Developed strong problem-solving skills and efficiently designed and implemented robust applications, ensuring seamless integration and functionality while adhering to best practices.</li>
+                </ul>
+            </div>
+        </div>
+
+       
+    </section>
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="projects-container">
+                        <div class="project">
+                            <h2 class="experience-sub-title project-title">Employee Management System using CRUD Operations</h2>
+                            <ul class="project-points">
+                                <li>Built a comprehensive Employee Management System using Java, Spring Boot, and Spring Data JPA to facilitate CRUD operations on employee records.</li>
+                                <li>The system includes seamless RESTful APIs to manage employee data, ensuring efficient interaction between the client and server. Implemented robust database management using PostgreSQL, focusing on data integrity and smooth operational performance.</li>
+                                <li>This project highlights my proficiency in full-stack development, including back-end architecture, database interaction, and API integration.</li>
+                                <li>Deployed the solution using Docker and Virtual Box, ensuring scalability and robust
+                                    performance for real-world financial applications.</li>
+                            </ul>
+                            <div class="project">
+                                <h2 class="experience-sub-title project-title">Emotion Recognition Using Speech Processing (Python)</h2>
+                                <ul class="project-points">
+                                    <li>Developed an AI-based emotion recognition system that analyzes pre-recorded audio clips to detect and classify emotional states such as happiness, sadness, or anger.</li>
+                                    <li>Leveraged Python and libraries like librosa for audio feature extraction.</li>
+                                    <li> The project utilized machine learning algorithms such as Support Vector Machines (SVM) and K-Nearest Neighbors (KNN) for emotion classification, training the model on labeled datasets. </li>
+                                    <li>This project highlights my ability to work with complex audio data, applying machine learning techniques to generate meaningful insights from speech patterns.</li>
+                                </ul>
+
+                            </div>
+
+                            <div class="project">
+                                <h2 class="experience-sub-title project-title">Netflix Webpage Clone (HTML, CSS)
+                                </h2>
+                                <ul class="project-points">
+                                    <li>Designed and implemented a Netflix webpage clone using HTML5 and CSS3, focusing on creating a fully responsive and visually appealing user interface.</li>
+                                    <li>This project involved structuring the webpage with semantic HTML and styling elements such as the navigation bar, content grids, and movie thumbnails with advanced CSS techniques like Flexbox and Grid Layout.</li>
+                                    <li>I also ensured cross-browser compatibility and responsive design to enhance user experience across various devices.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:kamraan2964@gmail.com">kamraan2964@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/kamraan-khan-4a891820b/" target="_blank">Kamraan Khan</a></p>
+                <p>
+                    <img src="./assets/call-icon.webp" alt="Contact icon" class="icon contact-icon">
+                    <a>+91 950 261 9181</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Kamraan Khan. All Rights Reserved. Developed by Kamraan Khan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
